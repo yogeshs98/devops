@@ -1,0 +1,8 @@
+- name: Basic playbook
+  hosts: all
+ 
+
+  tasks:
+    - name: Basic msg print tasks
+      debug:
+        msg: this is my 1st playbook 
