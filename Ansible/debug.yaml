@@ -6,3 +6,5 @@
     - name: Basic msg print tasks
       debug:
         msg: this is my 1st playbook 
+    - name: this is the task to run the command 
+      command: hostname 
